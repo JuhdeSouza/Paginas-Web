@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e067;
+}
+
+header {
+    position: relative;
+}
+
+.banner {
+    background-color: #e4e067;
+    background-size: cover;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: black; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block; 
+    margin: 20px auto; 
+}
+
+
+.hidrata {
+    max-width: 200px; 
+}
+
+.nutri {
+    max-width: 130px; 
+}
+
+.reco {
+    max-width: 155px;
+}
+
+.umec {
+    max-width: 200px;
+}
+
+.gelatina {
+    max-width: 190px; 
+}
+
+.mousse {
+    max-width: 300px; 
+}
+
+.libera {
+    max-width: 350px; 
+}
+
+footer {
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer h2 {
+    margin-bottom: 18px;
+    font-size: 16px; 
+   
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}

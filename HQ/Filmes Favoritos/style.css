@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #E794A6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #5fa8ca;
+}
+
+.actors {
+    list-style-type: none;
+    padding: 0;
+}
+
+.actors li {
+    margin: 5px 0;
+}
+
+.trailer-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #E794A6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.trailer-link:hover {
+    background: #090b0c;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.amigas {
+    max-width: 300px;
+}
+
+.namorado {
+    max-width: 350px;
+}
